@@ -1,2 +1,415 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="个人主页：记录计算机、人工智能、编程学习与项目实践。"><meta name="theme-color" content="#0b1020"><meta property="og:title" content="个人主页 | 探索技术与创造"><meta property="og:description" content="记录学习、探索与创造。"><title>个人主页 | 探索技术与创造</title><link rel="canonical" href="https://www619885-debug.github.io/"><style>:root{color-scheme:dark;--bg:#090d19;--fg:#edf2ff;--muted:#a2acc2;--line:#27314c;--accent:#7c9cff}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 70% 0%,#18254a 0%,transparent 45%),var(--bg);color:var(--fg);font:16px/1.7 system-ui,-apple-system,'Segoe UI',sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1060px,90%);margin:auto}header{border-bottom:1px solid var(--line)}nav{display:flex;justify-content:space-between;align-items:center;min-height:76px}.brand{font-weight:800;letter-spacing:.04em}.links{display:flex;gap:25px;color:var(--muted)}.links a:hover,.card a:hover{color:var(--accent)}.hero{padding:110px 0 105px}.tag{display:inline-block;border:1px solid #5265a0;border-radius:30px;padding:5px 14px;color:#b4c7ff;font-size:13px}.hero h1{font-size:clamp(40px,7vw,76px);letter-spacing:-.055em;line-height:1.15;margin:24px 0}.gradient{background:linear-gradient(90deg,#8faaff,#9fe8ef);background-clip:text;color:transparent}.hero p{max-width:630px;color:var(--muted);font-size:19px}.actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:32px}.btn{display:inline-block;border:1px solid #536183;padding:11px 22px;border-radius:10px}.btn.primary{background:#8da7ff;color:#071020;border-color:#8da7ff;font-weight:700}section{padding:50px 0}h2{font-size:28px;margin:0 0 12px}.lead{color:var(--muted);margin:0 0 26px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:linear-gradient(150deg,#18213a,#101625);border:1px solid var(--line);border-radius:16px;padding:25px;min-height:175px}.card h3{margin:0 0 12px}.card p{color:var(--muted);margin:0}.chip{display:inline-block;background:#263354;color:#c2d2ff;border-radius:6px;padding:5px 10px;margin:5px 6px 0 0;font-size:13px}footer{border-top:1px solid var(--line);color:var(--muted);padding:28px 0;margin-top:70px;font-size:14px}@media(max-width:700px){.links{gap:13px;font-size:13px}.hero{padding:75px 0}.grid{grid-template-columns:1fr}.hero p{font-size:17px}}</style></head><body><header><nav class="wrap"><a class="brand" href="#home">PORTFOLIO<span style="color:#8da7ff">.</span></a><div class="links"><a href="#about">关于</a><a href="#skills">技能</a><a href="#projects">项目</a><a href="#contact">联系</a></div></nav></header><main class="wrap"><div class="hero" id="home"><span class="tag">WELCOME · PERSONAL SPACE</span><h1>你好，我正在<br><span class="gradient">探索技术与创造。</span></h1><p>一名对计算机、人工智能和编程充满好奇的学习者。这里记录我的学习过程、技术实验和逐渐成形的作品。</p><div class="actions"><a class="btn primary" href="#projects">探索项目 →</a><a class="btn" href="https://github.com/www619885-debug" target="_blank" rel="noopener noreferrer">访问 GitHub ↗</a></div></div><section id="about"><h2>关于我</h2><p class="lead">从好奇出发，用实践积累经验。</p><div class="card"><p>目前正在学习计算机相关知识，关注 Python、网络技术和 AI 应用。我希望把学习过程中遇到的问题、解决方法与实践成果整理在这里，让每一次尝试都留下记录。</p></div></section><section id="skills"><h2>探索领域</h2><p class="lead">持续学习中，不代表已取得专业认证。</p><div><span class="chip">Python</span><span class="chip">计算机网络</span><span class="chip">Linux</span><span class="chip">Web 开发</span><span class="chip">AI 工具</span><span class="chip">项目实践</span></div></section><section id="projects"><h2>项目与记录</h2><p class="lead">项目展示区，后续可替换成真实作品及截图。</p><div class="grid"><article class="card"><h3>01 / 编程学习</h3><p>整理 Python 入门笔记、练习和阶段性成果。</p></article><article class="card"><h3>02 / 网络实验</h3><p>记录网络配置、虚拟化实验和故障排查过程。</p></article><article class="card"><h3>03 / AI 探索</h3><p>尝试利用 AI 工具提高学习与开发效率。</p></article></div></section><section id="contact"><h2>保持联系</h2><p class="lead">欢迎通过 GitHub 了解我的公开项目。</p><a class="btn primary" href="https://github.com/www619885-debug" target="_blank" rel="noopener noreferrer">GitHub 个人主页 ↗</a></section></main><footer><div class="wrap">© <span id="year">2026</span> · Personal Portfolio · Built with HTML & CSS</div></footer><script>document.getElementById('year').textContent=new Date().getFullYear()</script></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="www619885-debug 的个人主页。用代码、设计与持续记录，把学习中的灵感做成作品。">
+  <meta name="theme-color" content="#0b0c18">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="www619885-debug · 魔法与代码的开发日志">
+  <meta property="og:description" content="从好奇出发，把灵感写成现实。浏览项目、概念实验与公开 GitHub 动态。">
+  <meta property="og:url" content="https://www619885-debug.github.io/">
+  <meta property="og:image" content="https://www619885-debug.github.io/hero.webp">
+  <link rel="canonical" href="https://www619885-debug.github.io/">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <title>www619885-debug · 魔法与代码的开发日志</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #090a14;
+      --surface: #10121f;
+      --surface2: #151729;
+      --surface3: #1a1a2f;
+      --line: #303046;
+      --ink: #f5f1fa;
+      --muted: #a8a4b9;
+      --soft: #75758e;
+      --pink: #f28ab5;
+      --rose: #f05995;
+      --violet: #a590ff;
+      --mint: #81dec7;
+      --shadow: 0 24px 70px rgba(0, 0, 0, .28);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 86% 5%, rgba(137, 75, 155, .16), transparent 25rem),
+        radial-gradient(circle at 3% 54%, rgba(74, 62, 140, .11), transparent 26rem),
+        var(--bg);
+      font: 15px/1.65 ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+    }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+    :focus-visible { outline: 2px solid var(--pink); outline-offset: 3px; }
+    ::selection { background: #b3457e; color: #fff; }
+    .wrap { width: min(1320px, calc(100% - 48px)); margin-inline: auto; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+    .topbar {
+      position: sticky; top: 0; z-index: 20;
+      background: rgba(10, 11, 22, .88);
+      border-bottom: 1px solid rgba(209, 186, 224, .13);
+      backdrop-filter: blur(18px);
+    }
+    .topbar-inner { min-height: 70px; display: flex; align-items: center; gap: 22px; }
+    .brand { display: flex; align-items: center; gap: 11px; min-width: 0; font-weight: 750; letter-spacing: -.02em; }
+    .sigil { width: 31px; height: 31px; display: grid; place-items: center; color: #160d22; background: linear-gradient(145deg, #ffb6d1, #ac8bff); border-radius: 9px; box-shadow: 0 0 22px rgba(240, 89, 149, .25); font-size: 19px; }
+    .brand .slash { color: var(--soft); font-weight: 400; }
+    .brand .repo { color: #d7cce5; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .topnav { display: flex; gap: 5px; margin-left: auto; }
+    .topnav a { color: var(--muted); padding: 8px 12px; border-radius: 8px; font-size: 13px; font-weight: 650; }
+    .topnav a:hover, .topnav a:focus-visible { color: var(--ink); background: rgba(202, 153, 214, .10); }
+    .header-github { padding: 8px 13px; border: 1px solid var(--line); border-radius: 8px; color: #e9e4f1; font-weight: 700; font-size: 13px; white-space: nowrap; }
+    .header-github:hover { border-color: var(--pink); color: #fff; }
+    .hero {
+      position: relative; isolation: isolate; overflow: hidden; min-height: 520px; margin-top: 28px;
+      display: flex; align-items: center; border: 1px solid rgba(232, 174, 220, .28);
+      border-radius: 24px;
+      background: #10101e url("hero.webp") center center / cover no-repeat;
+      box-shadow: var(--shadow);
+    }
+    .hero::before {
+      content: ""; position: absolute; inset: 0; z-index: -1;
+      background: linear-gradient(90deg, rgba(7, 8, 18, .96) 0%, rgba(10, 9, 23, .9) 27%, rgba(13, 10, 27, .6) 49%, rgba(12, 9, 24, .08) 78%);
+    }
+    .hero::after { content: ""; position: absolute; inset: auto 0 0; height: 75px; z-index: -1; background: linear-gradient(transparent, rgba(10, 9, 20, .63)); }
+    .hero-content { max-width: 690px; padding: 68px 7%; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 9px; color: #f4bad7; text-transform: uppercase; letter-spacing: .19em; font: 700 11px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace; }
+    .eyebrow::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--rose); box-shadow: 0 0 14px var(--rose); }
+    .hero h1 { margin: 23px 0 17px; font-size: clamp(44px, 5.2vw, 76px); letter-spacing: -.065em; line-height: 1.13; font-weight: 850; }
+    .hero h1 span { display: block; color: #ffd8e9; text-shadow: 0 0 38px rgba(217, 84, 158, .23); }
+    .hero p { max-width: 530px; margin: 0; color: #d8d0df; font-size: clamp(15px, 1.35vw, 18px); }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 11px; margin-top: 32px; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 43px; padding: 0 18px; border: 1px solid #685772; border-radius: 9px; font-size: 13px; font-weight: 760; transition: transform .2s, background .2s, border-color .2s; }
+    .btn:hover { transform: translateY(-2px); border-color: #f6a6cf; }
+    .btn.primary { border-color: #ffadd3; color: #221020; background: linear-gradient(110deg, #ffd4e5, #cbafff); box-shadow: 0 8px 32px rgba(224, 113, 189, .18); }
+    .btn.ghost { background: rgba(10, 8, 20, .44); color: #f3eaf5; }
+    .hero-edition { position: absolute; right: 25px; bottom: 21px; padding: 5px 10px; border: 1px solid rgba(255,255,255,.25); background: rgba(9, 9, 20, .5); border-radius: 7px; color: #eee1ed; font: 600 10px ui-monospace, Consolas, monospace; letter-spacing: .13em; backdrop-filter: blur(8px); }
+    .repo-nav { display: flex; gap: 26px; border-bottom: 1px solid var(--line); margin-top: 28px; overflow-x: auto; }
+    .repo-nav a { position: relative; display: flex; align-items: center; gap: 7px; flex: 0 0 auto; padding: 15px 4px 16px; color: var(--muted); font-size: 13px; font-weight: 700; }
+    .repo-nav a:hover { color: #fff; }
+    .repo-nav a.active { color: #fff; }
+    .repo-nav a.active::after { content: ""; position: absolute; bottom: -1px; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--rose), var(--violet)); border-radius: 5px 5px 0 0; }
+    .layout { display: grid; grid-template-columns: 270px minmax(0, 1fr); gap: 30px; margin-top: 31px; align-items: start; }
+    .sidebar { position: sticky; top: 102px; }
+    .profile-card { padding: 21px; border: 1px solid var(--line); border-radius: 17px; background: linear-gradient(160deg, #171628, #10121f 68%); }
+    .avatar-wrap { position: relative; width: 112px; height: 112px; margin-bottom: 16px; padding: 4px; border-radius: 24px; background: linear-gradient(140deg, #f5a7ce, #8d70db, #4c455b); }
+    .avatar-wrap img { display: block; width: 100%; height: 100%; border-radius: 20px; object-fit: cover; background: #231b34; }
+    .avatar-wrap::after { content: "✦"; position: absolute; bottom: -8px; right: -8px; display: grid; place-items: center; width: 29px; height: 29px; border: 3px solid var(--surface); border-radius: 50%; background: #d171b2; color: #fff; font-size: 15px; }
+    .profile-card h2 { margin: 0; font-size: 22px; line-height: 1.25; letter-spacing: -.045em; overflow-wrap: anywhere; }
+    .handle { color: #afa8bd; font: 13px/1.5 ui-monospace, Consolas, monospace; }
+    .profile-bio { margin: 14px 0 18px; color: #d4cede; font-size: 13px; }
+    .profile-link { display: block; padding: 9px 12px; border: 1px solid #675170; border-radius: 8px; text-align: center; font-size: 12px; font-weight: 760; background: #2b1e36; }
+    .profile-link:hover { background: #43284c; }
+    .side-list { list-style: none; padding: 16px 0 0; margin: 0; border-top: 1px solid var(--line); margin-top: 18px; display: grid; gap: 11px; color: #b9b4c7; font-size: 12px; }
+    .side-list li { display: flex; align-items: center; gap: 9px; }
+    .side-list .icon { width: 17px; text-align: center; color: var(--pink); }
+    .side-list a { color: #e0cfec; }
+    .side-list a:hover { text-decoration: underline; }
+    .side-note { padding: 17px 4px 0; color: var(--soft); font-size: 11px; line-height: 1.55; }
+    .content { min-width: 0; }
+    .section { scroll-margin-top: 105px; margin-bottom: 42px; }
+    .section-heading { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 12px; margin-bottom: 16px; }
+    .section-heading h2 { margin: 0; font-size: 21px; letter-spacing: -.04em; }
+    .section-heading p { margin: 3px 0 0; color: var(--muted); font-size: 12px; }
+    .section-heading .section-link { color: #eeb3d3; font-size: 12px; font-weight: 700; }
+    .section-heading .section-link:hover { text-decoration: underline; }
+    .intro-panel { display: grid; grid-template-columns: 1.2fr .8fr; gap: 20px; padding: 23px; background: linear-gradient(125deg, #17172a, #141320 70%, #201629); border: 1px solid var(--line); border-radius: 15px; }
+    .intro-panel h3 { margin: 0 0 8px; font-size: 19px; letter-spacing: -.03em; }
+    .intro-panel p { margin: 0; color: var(--muted); font-size: 13px; }
+    .code-stamp { align-self: center; overflow: hidden; border: 1px solid #48405a; border-radius: 10px; background: #0b0d18; box-shadow: inset 0 0 32px rgba(127, 77, 147, .1); }
+    .code-stamp .bar { display: flex; align-items: center; gap: 5px; padding: 8px 10px; border-bottom: 1px solid #363247; color: #a59caf; font: 10px ui-monospace, Consolas, monospace; }
+    .code-stamp .dot { width: 6px; height: 6px; border-radius: 50%; background: #e887ae; }
+    .code-stamp .dot:nth-child(2) { background: #cfb07d; }
+    .code-stamp .dot:nth-child(3) { background: #80cfb8; margin-right: 7px; }
+    .code-stamp pre { margin: 0; padding: 12px; overflow: auto; color: #d7c4e7; font: 11px/1.75 ui-monospace, Consolas, monospace; }
+    .code-stamp .key { color: #a590ff; }
+    .code-stamp .value { color: #8edcc9; }
+    .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 13px; }
+    .stat { padding: 17px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+    .stat strong { display: block; font-size: 25px; line-height: 1.2; letter-spacing: -.05em; color: #ffe3ef; }
+    .stat span { color: var(--muted); font-size: 11px; }
+    .filter-bar { display: flex; align-items: center; gap: 7px; margin-bottom: 13px; flex-wrap: wrap; }
+    .filter-bar button { cursor: pointer; color: var(--muted); background: #131522; border: 1px solid var(--line); border-radius: 7px; padding: 6px 11px; font-size: 11px; font-weight: 750; }
+    .filter-bar button[aria-pressed="true"] { color: #ffe1f0; border-color: #8f587f; background: #35213b; }
+    .projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px; }
+    .project { position: relative; min-height: 194px; padding: 20px; overflow: hidden; border: 1px solid var(--line); border-radius: 14px; background: linear-gradient(145deg, #171829, #10121e); transition: transform .2s, border-color .2s, box-shadow .2s; }
+    .project:hover { transform: translateY(-3px); border-color: #855a8b; box-shadow: 0 14px 35px rgba(0,0,0,.18); }
+    .project::before { content: ""; position: absolute; width: 150px; height: 150px; right: -65px; top: -65px; border-radius: 50%; background: radial-gradient(circle, rgba(218, 89, 172, .24), transparent 68%); pointer-events: none; }
+    .project.featured { background: linear-gradient(145deg, #251a35, #141422 70%); }
+    .project.wide { grid-column: 1 / -1; min-height: 170px; }
+    .project-top { display: flex; justify-content: space-between; gap: 8px; align-items: start; }
+    .project-symbol { display: grid; place-items: center; width: 35px; height: 35px; border: 1px solid #6e536f; border-radius: 9px; color: #ffd7eb; background: #36243d; font-size: 20px; }
+    .project-badge { color: #cdbed2; border: 1px solid #52445d; border-radius: 100px; padding: 3px 8px; font: 9px ui-monospace, Consolas, monospace; letter-spacing: .07em; text-transform: uppercase; white-space: nowrap; }
+    .project h3 { margin: 18px 0 5px; font-size: 17px; letter-spacing: -.025em; }
+    .project p { margin: 0; max-width: 65ch; color: var(--muted); font-size: 12px; }
+    .project-footer { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 17px; align-items: center; }
+    .tag { padding: 3px 8px; border-radius: 5px; background: #262438; color: #c9bfd7; font: 10px ui-monospace, Consolas, monospace; }
+    .project-footer a { margin-left: auto; color: #f4b8da; font-size: 11px; font-weight: 750; }
+    .project-footer a:hover { text-decoration: underline; }
+    .focus-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .focus { padding: 18px; border: 1px solid var(--line); border-radius: 13px; background: var(--surface); }
+    .focus .num { color: var(--pink); font: 11px ui-monospace, Consolas, monospace; }
+    .focus h3 { margin: 15px 0 6px; font-size: 15px; }
+    .focus p { margin: 0; color: var(--muted); font-size: 11px; }
+    .activity-shell { border: 1px solid var(--line); border-radius: 15px; background: var(--surface); overflow: hidden; }
+    .activity-top { padding: 19px 21px 14px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; align-items: center; }
+    .activity-top h3 { margin: 0; font-size: 15px; }
+    .demo-label { color: #ffcbe0; background: #39223c; border: 1px solid #774b72; border-radius: 100px; padding: 3px 9px; font: 10px ui-monospace, Consolas, monospace; }
+    .heatmap-scroll { overflow-x: auto; padding: 0 21px 8px; }
+    .heatmap { display: grid; grid-template-rows: repeat(7, 10px); grid-auto-flow: column; grid-auto-columns: 10px; gap: 4px; min-width: max-content; }
+    .heatmap i { display: block; width: 10px; height: 10px; border-radius: 2px; background: #262538; border: 1px solid #39364c; }
+    .heatmap i[data-level="1"] { background: #60315f; border-color: #60315f; }
+    .heatmap i[data-level="2"] { background: #914b83; border-color: #914b83; }
+    .heatmap i[data-level="3"] { background: #c96a9a; border-color: #c96a9a; }
+    .heatmap i[data-level="4"] { background: #f5a1c1; border-color: #f5a1c1; box-shadow: 0 0 9px rgba(245, 161, 193, .25); }
+    .activity-bottom { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; padding: 11px 21px 17px; color: var(--soft); font-size: 10px; }
+    .activity-bottom a { color: #e5abc9; }
+    .activity-bottom a:hover { text-decoration: underline; }
+    .commits { margin: 13px 0 0; padding: 0; list-style: none; border: 1px solid var(--line); border-radius: 13px; background: var(--surface); overflow: hidden; }
+    .commits li { display: flex; justify-content: space-between; gap: 12px; padding: 12px 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; }
+    .commits li:first-child { border-top: 0; }
+    .commits a { color: #e8d0e7; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+    .commits a:hover { color: #ffbddd; text-decoration: underline; }
+    .commits time, .commits code { flex: 0 0 auto; color: var(--soft); font: 10px ui-monospace, Consolas, monospace; }
+    .closing { position: relative; overflow: hidden; border: 1px solid #68516e; border-radius: 17px; padding: 25px; background: linear-gradient(125deg, #301d3b, #181629 65%, #11121f); }
+    .closing::after { content: "✦"; position: absolute; right: 16px; top: -46px; color: rgba(233, 177, 223, .11); font-size: 180px; line-height: 1; pointer-events: none; }
+    .closing h2 { margin: 0 0 5px; font-size: 23px; letter-spacing: -.04em; }
+    .closing p { max-width: 600px; margin: 0 0 17px; color: #d5cadb; font-size: 12px; }
+    .closing .btn { position: relative; }
+    footer { border-top: 1px solid var(--line); margin-top: 48px; color: var(--soft); font-size: 11px; }
+    .footer-inner { min-height: 72px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+    footer a { color: #d6bdd8; }
+    footer a:hover { text-decoration: underline; }
+    @media (max-width: 1030px) {
+      .layout { grid-template-columns: 235px minmax(0, 1fr); gap: 20px; }
+      .topnav { gap: 0; }
+      .topnav a { padding-inline: 8px; }
+    }
+    @media (max-width: 760px) {
+      .wrap { width: min(100% - 28px, 560px); }
+      .topbar-inner { min-height: 62px; }
+      .brand .repo, .brand .slash, .topnav { display: none; }
+      .header-github { margin-left: auto; }
+      .hero { min-height: 580px; align-items: end; margin-top: 14px; border-radius: 17px; background-position: 67% top; }
+      .hero::before { background: linear-gradient(0deg, rgba(8, 8, 18, .99) 0%, rgba(8, 8, 18, .9) 40%, rgba(8, 8, 18, .15) 100%); }
+      .hero-content { padding: 35px 23px 52px; }
+      .hero h1 { font-size: clamp(40px, 9vw, 58px); }
+      .hero-edition { right: 15px; top: 15px; bottom: auto; }
+      .repo-nav { margin-top: 14px; gap: 20px; }
+      .layout { display: flex; flex-direction: column; margin-top: 23px; }
+      .content { order: 1; width: 100%; }
+      .sidebar { order: 2; position: static; width: 100%; }
+      .profile-card { display: grid; grid-template-columns: 82px 1fr; column-gap: 15px; }
+      .avatar-wrap { width: 82px; height: 82px; grid-row: span 3; }
+      .profile-link, .side-list { grid-column: 1 / -1; }
+      .side-note { padding: 11px 4px 0; }
+      .intro-panel { grid-template-columns: 1fr; }
+      .stats { gap: 8px; }
+      .stat { padding: 12px; }
+      .stat strong { font-size: 19px; }
+      .stat span { font-size: 10px; }
+      .projects, .focus-grid { grid-template-columns: 1fr; }
+      .project.wide { grid-column: auto; }
+      .section { margin-bottom: 34px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .btn, .project { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#top" aria-label="返回主页顶部"><span class="sigil" aria-hidden="true">✦</span><span>www619885-debug</span><span class="slash">/</span><span class="repo">portfolio</span></a>
+      <nav class="topnav" aria-label="主导航">
+        <a href="#overview">总览</a><a href="#projects">项目</a><a href="#contributions">贡献</a><a href="#about">关于</a>
+      </nav>
+      <a class="header-github" href="https://github.com/www619885-debug" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </div>
+  </header>
+
+  <div class="wrap" id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <span class="eyebrow">Chapter 02 · The Developer's Trial</span>
+        <h1 id="hero-title">魔法也许不存在，<span>但创造可以。</span></h1>
+        <p>一份写给代码、好奇心和想象力的个人档案。学习、试验、记录，把每次灵感变成下一次提交。</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">探索作品集 <span aria-hidden="true">↘</span></a>
+          <a class="btn ghost" href="#contributions">查看贡献记录 <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <span class="hero-edition">ORIGINAL ART · V2.0</span>
+    </section>
+
+    <nav class="repo-nav" aria-label="页面分区">
+      <a class="active" href="#overview"><span aria-hidden="true">◈</span> Overview</a>
+      <a href="#projects"><span aria-hidden="true">◇</span> Repositories</a>
+      <a href="#contributions"><span aria-hidden="true">▦</span> Contributions</a>
+      <a href="#about"><span aria-hidden="true">✧</span> About</a>
+    </nav>
+
+    <div class="layout">
+      <aside class="sidebar" aria-label="个人资料">
+        <div class="profile-card">
+          <div class="avatar-wrap"><img src="https://avatars.githubusercontent.com/u/231076166?v=4" width="104" height="104" alt="www619885-debug 的 GitHub 头像" loading="lazy"></div>
+          <h2>www619885-debug</h2>
+          <div class="handle">@www619885-debug</div>
+          <p class="profile-bio">正在学习，也正在创造。偏爱把技术实验做成能看、能用、能继续生长的作品。</p>
+          <a class="profile-link" href="https://github.com/www619885-debug" target="_blank" rel="noopener noreferrer">在 GitHub 查看真实主页 ↗</a>
+          <ul class="side-list">
+            <li><span class="icon" aria-hidden="true">◉</span> 学习方向：Python / Web / AI</li>
+            <li><span class="icon" aria-hidden="true">✧</span> 当前状态：Build in public</li>
+            <li><span class="icon" aria-hidden="true">⌘</span> <a href="https://github.com/www619885-debug/www619885-debug.github.io" target="_blank" rel="noopener noreferrer">本站源代码</a></li>
+            <li><span class="icon" aria-hidden="true">↶</span> <a href="/v1/">回到第一版主页</a></li>
+          </ul>
+        </div>
+        <p class="side-note">视觉为个人创作。概念项目和贡献热力图属于展示内容；GitHub 仓库与最近提交从真实公开数据获取。</p>
+      </aside>
+
+      <main class="content">
+        <section class="section" id="overview" aria-labelledby="overview-title">
+          <div class="section-heading"><div><h2 id="overview-title">角色档案 <span aria-hidden="true">✦</span></h2><p>Profile README / 一份持续更新的开发日志</p></div><a class="section-link" href="https://github.com/www619885-debug" target="_blank" rel="noopener noreferrer">真实 GitHub 档案 ↗</a></div>
+          <div class="intro-panel">
+            <div>
+              <h3>你好，我是 www619885-debug。</h3>
+              <p>这是一间把 GitHub 工作台与二次元幻想拼在一起的小小研究室。现在的重点是编程基础、Web 体验和 AI 工具；这里会收集我的实验、想法与真正完成的作品。</p>
+            </div>
+            <div class="code-stamp" aria-label="开发者档案代码片段">
+              <div class="bar"><i class="dot"></i><i class="dot"></i><i class="dot"></i>profile.json</div>
+              <pre>{ <span class="key">"name"</span>: <span class="value">"www619885-debug"</span>,
+  <span class="key">"mode"</span>: <span class="value">"learning in public"</span>,
+  <span class="key">"motto"</span>: <span class="value">"create &amp; commit"</span> }</pre>
+            </div>
+          </div>
+          <div class="stats" aria-label="网站信息">
+            <div class="stat"><strong>01</strong><span>已发布的真实仓库</span></div>
+            <div class="stat"><strong>03</strong><span>作品与概念档案</span></div>
+            <div class="stat"><strong>0</strong><span>大型前端框架依赖</span></div>
+          </div>
+        </section>
+
+        <section class="section" id="projects" aria-labelledby="projects-title">
+          <div class="section-heading"><div><h2 id="projects-title">置顶档案</h2><p>一个真实站点，两个面向未来的概念实验</p></div><span class="section-link">PINNED / 03</span></div>
+          <div class="filter-bar" role="group" aria-label="筛选项目">
+            <button type="button" data-filter="all" aria-pressed="true">全部 03</button>
+            <button type="button" data-filter="live" aria-pressed="false">已发布 01</button>
+            <button type="button" data-filter="concept" aria-pressed="false">概念 02</button>
+          </div>
+          <div class="projects">
+            <article class="project featured wide" data-kind="live">
+              <div class="project-top"><span class="project-symbol" aria-hidden="true">✦</span><span class="project-badge">Public · Live</span></div>
+              <h3>Witchcraft &amp; Code / 个人主页</h3>
+              <p>你正在浏览的第二版：用原生 HTML、CSS 与 JavaScript 构建，融合开发者工作台与魔女审判氛围。第一版完整保存在站内。</p>
+              <div class="project-footer"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><a href="https://github.com/www619885-debug/www619885-debug.github.io" target="_blank" rel="noopener noreferrer">查看仓库 ↗</a></div>
+            </article>
+            <article class="project" data-kind="concept">
+              <div class="project-top"><span class="project-symbol" aria-hidden="true">◇</span><span class="project-badge">Concept / Demo</span></div>
+              <h3>Arcane Prompt Lab</h3>
+              <p>构想中的 AI 提示词实验室：把想法、迭代与结果整理成可复用的工作流。页面展示为概念设计。</p>
+              <div class="project-footer"><span class="tag">AI Tools</span><span class="tag">Workflow</span></div>
+            </article>
+            <article class="project" data-kind="concept">
+              <div class="project-top"><span class="project-symbol" aria-hidden="true">⌘</span><span class="project-badge">Concept / Demo</span></div>
+              <h3>TraceNet Observatory</h3>
+              <p>构想中的网络可视化工具：让抽象的数据流、路径和异常变得一眼可读。页面展示为概念设计。</p>
+              <div class="project-footer"><span class="tag">Networks</span><span class="tag">Visualization</span></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="focus-title">
+          <div class="section-heading"><div><h2 id="focus-title">正在修习的领域</h2><p>Skill tree / 保持开放，持续升级</p></div></div>
+          <div class="focus-grid">
+            <div class="focus"><span class="num">01 / SCRIPT</span><h3>Python 与自动化</h3><p>用脚本整理重复任务，练习把问题拆成可执行的步骤。</p></div>
+            <div class="focus"><span class="num">02 / INTERFACE</span><h3>Web 与视觉表达</h3><p>让页面不仅能运行，也有清楚的层次与值得停留的体验。</p></div>
+            <div class="focus"><span class="num">03 / EXPLORE</span><h3>AI 与网络实验</h3><p>保持好奇，记录工具、系统和新想法碰撞出的可能性。</p></div>
+          </div>
+        </section>
+
+        <section class="section" id="contributions" aria-labelledby="contributions-title">
+          <div class="section-heading"><div><h2 id="contributions-title">贡献与活动</h2><p>Inspired by GitHub / 页面示意与真实提交分开展示</p></div><a class="section-link" href="https://github.com/www619885-debug?tab=overview" target="_blank" rel="noopener noreferrer">查看实时贡献 ↗</a></div>
+          <div class="activity-shell">
+            <div class="activity-top"><h3>创作轨迹 · Concept visualization</h3><span class="demo-label">DEMO DATA / 演示热力图</span></div>
+            <div class="heatmap-scroll"><div class="heatmap" id="heatmap" role="img" aria-label="装饰性演示贡献热力图，非真实 GitHub 数据"></div></div>
+            <div class="activity-bottom"><span>这是展示用的视觉图，不代表实际贡献次数。</span><a href="https://github.com/www619885-debug" target="_blank" rel="noopener noreferrer">真实数据以 GitHub 为准 ↗</a></div>
+          </div>
+          <ul class="commits" id="commits" aria-label="真实公开仓库的最近提交">
+            <li><a href="https://github.com/www619885-debug/www619885-debug.github.io/commits/main" target="_blank" rel="noopener noreferrer">在 GitHub 查看最近公开提交 ↗</a><code>LIVE SOURCE</code></li>
+          </ul>
+        </section>
+
+        <section class="section" id="about" aria-labelledby="about-title">
+          <div class="closing">
+            <h2 id="about-title">下一章，还在编写。</h2>
+            <p>这一页是起点，不是终点。如果你想看真实的开发过程、文件和后续更新，GitHub 仓库会留下每一步。</p>
+            <a class="btn primary" href="https://github.com/www619885-debug" target="_blank" rel="noopener noreferrer">前往 GitHub <span aria-hidden="true">↗</span></a>
+            <a class="btn ghost" href="/v1/">阅读第一版 <span aria-hidden="true">↶</span></a>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <footer><div class="wrap footer-inner"><span>© <span id="year">2026</span> www619885-debug · Crafted with curiosity.</span><span>原创插画与视觉设计 · 非《魔法少女的魔女审判》官方页面 · <a href="/v1/">V1 Archive</a></span></div></footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // A deterministic decorative pattern. It is explicitly labeled as demo data.
+    var heatmap = document.getElementById("heatmap");
+    for (var week = 0; week < 53; week++) {
+      for (var day = 0; day < 7; day++) {
+        var cell = document.createElement("i");
+        var seed = (week * 37 + day * 19 + week * day * 3) % 23;
+        var wave = Math.sin(week / 5) + Math.cos(day * 1.9);
+        var level = seed < 7 && wave > -0.55 ? Math.min(4, 1 + (seed + week) % 4) : 0;
+        cell.dataset.level = String(level);
+        cell.setAttribute("aria-hidden", "true");
+        heatmap.appendChild(cell);
+      }
+    }
+
+    var filters = document.querySelectorAll("[data-filter]");
+    filters.forEach(function (button) {
+      button.addEventListener("click", function () {
+        var filter = button.dataset.filter;
+        filters.forEach(function (item) { item.setAttribute("aria-pressed", String(item === button)); });
+        document.querySelectorAll(".project").forEach(function (card) {
+          card.hidden = filter !== "all" && card.dataset.kind !== filter;
+        });
+      });
+    });
+
+    // GitHub's public API supplies actual commit messages. The link above remains as fallback.
+    fetch("https://api.github.com/repos/www619885-debug/www619885-debug.github.io/commits?per_page=4", {
+      headers: { "Accept": "application/vnd.github+json" }
+    }).then(function (response) {
+      if (!response.ok) throw new Error("GitHub API unavailable");
+      return response.json();
+    }).then(function (commits) {
+      if (!Array.isArray(commits) || !commits.length) return;
+      var list = document.getElementById("commits");
+      list.textContent = "";
+      commits.forEach(function (entry) {
+        var li = document.createElement("li");
+        var a = document.createElement("a");
+        a.href = "https://github.com/www619885-debug/www619885-debug.github.io/commit/" + encodeURIComponent(entry.sha);
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.textContent = (entry.commit.message || "Commit").split("\n")[0];
+        var code = document.createElement("code");
+        code.textContent = entry.sha.slice(0, 7);
+        li.append(a, code);
+        list.appendChild(li);
+      });
+    }).catch(function () { /* The visible GitHub link is the fallback. */ });
+  </script>
+</body>
+</html>
 
